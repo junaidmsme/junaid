@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/web/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="/web/assets/css/rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Materials Science &amp; Metallurgical Engineering</title>
+		<description>&lt;p style=&quot;color:white;font-size:15px;&quot;&gt;Materials Science &amp; Metallurgical Engineering, IIT Hyderabad.&lt;/p&gt;</description>
+		<link>/web/</link>
+		<atom:link href="/web/feed.xml" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>

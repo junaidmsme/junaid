@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/web/assets/xslt/atom.xslt" ?>
+<?xml-stylesheet type="text/css" href="/web/assets/css/atom.css" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>/web/</id>
+	<title>Materials Science &amp; Metallurgical Engineering</title>
+	<updated>2023-06-22T20:58:43+05:30</updated>
+
+	<subtitle>&lt;p style=&quot;color:white;font-size:15px;&quot;&gt;Materials Science &amp; Metallurgical Engineering, IIT Hyderabad.&lt;/p&gt;</subtitle>
+
+	
+		
+		<author>
+			
+				<name>MSME Website Team</name>
+			
+			
+			
+		</author>
+	
+
+	<link href="/web/atom.xml" rel="self" type="application/rss+xml" />
+	<link href="/web/" rel="alternate" type="text/html" />
+
+	<generator uri="http://jekyllrb.com" version="4.3.2">Jekyll</generator>
+
+	
+</feed>
