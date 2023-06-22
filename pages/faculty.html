@@ -1,0 +1,56 @@
+---
+title: "Faculty"
+layout: page-fullwidth
+display: true
+permalink: "/faculty/"
+---
+
+
+<style>
+.grayscale{
+  width: 200px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+
+  {% for facMem in site.data.faculty %}
+  <div class=" container-fluid  ">
+  <div class="row">
+    <div class="small-3 columns" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+      <img class="grayscale" src="..{{ facMem.imgsrc }}">
+    </div>
+    <!-- <div class="small-9 columns">
+      <p class="small-gap">test</p>
+    </div> -->
+    <div class="small-9 columns">
+      <p class="small-gap"> <b> <a href="{{ facMem.profileLink }}">{{ facMem.name }}</a> </b></p>
+      <p class="small-gap"> <b> {{ facMem.designation }} </b></p>
+      <p class="small-gap" style="text-align: justify;">
+        <b>Research Interests: </b>  {{ facMem.researchInterests }}
+      </p>
+      <ul style="padding-left:0;">
+        <li class="text-left" style="font-size:14px; margin:0">Office: {{ facMem.office }}</li>
+        <li class="text-left" style="font-size:14px; margin:0">
+          <i class="fa fa-envelope"></i>  <a href="mailto:{{ facMem.email }}">{{ facMem.email }}</a>
+        </li>
+        <a href="{{ facMem.profileLink }}" target="_blank" class="button"><strong>Profile Link</strong></a>
+        
+      </ul>
+    </div>
+    </div>
+  </div>
+  <hr>
+{% endfor %}
+
+
+
+  

@@ -1,0 +1,18 @@
+---
+title: "Doctoral Alumni 2021"
+layout: page-fullwidth
+display: true
+permalink           : "sections/DoctoralAlumni2021/"
+---
+<ol>
+  {% for alumni in site.data.alumni_2021 %}
+
+              <h4><li>{{ alumni.name }}</h4>
+              <h5>Roll No.:{{ alumni.rollno }}</h5>
+              <h5>Advisor: {{ alumni.facAdvi}}</h5>
+              <h5>Topic: {{ alumni.topic }}</h5>
+              <h5>Year of Graduation: {{ alumni.year }}</h5>
+              &nbsp;
+
+  {% endfor %}
+</ol>

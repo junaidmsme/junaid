@@ -1,0 +1,84 @@
+- name: Balavardhi Raju
+  imgsrc: /assets/images/staff/raju.jpg
+  designation: Technical Officer
+  email: bvraju.banoth@msme.iith.ac.in
+  Lab: Lab/Facilities Incharge - Structure Materials & Heat Treatment Labs
+
+
+- name: Dr. Upender Sunkari
+  imgsrc: /assets/images/staff/upender.jpg
+  designation: Technical Officer
+  email: upender.sunkari@msme.iith.ac.in
+  profile: https://upendersunkari.weebly.com/
+  Lab: Lab/Facilities Incharge - Electron Microscope & X-Ray Diffraction Facilities
+
+- name: Yarajani Sravani
+  imgsrc: /assets/images/staff/YarajaniSravani.jpg
+  designation: Technical Superintendent
+  email: y.sravani@msme.iith.ac.in
+  Lab: Lab/Facilities Incharge - Raman Spectroscopy & Sputtering Facilities
+
+- name: Muriki Laxminarayana
+  imgsrc: /assets/images/staff/MurikiLaxminarayana.png
+  designation: Technical Superintendent
+  email: m.laxman@msme.iith.ac.in
+  Lab: Lab/Facilities Incharge - Electron Microscopy (TEM, FIB-SEM) Facilities
+
+- name: Mohammad Abdul Junaid
+  imgsrc: /assets/images/staff/Junaid.jpg
+  designation: Technical Superintendent
+  email: junaid.mohammad@msme.iith.ac.in
+  Lab: Lab/Facilities Incharge - Material simulation lab, Data center/server management, High Performance Computing
+
+
+- name: Harish Ramaneni
+  imgsrc: /assets/images/staff/HarishRamaneni.jpg
+  designation: Executive Assistant
+  email: harish.ramineni@admin.iith.ac.in
+  Lab: Area of work - General Office Administration
+
+
+- name: M. V. Srinivas
+  imgsrc: /assets/images/staff/srinivas.jpg
+  designation: Technician
+  email: mv.srinivas@msme.iith.ac.in
+  Lab: Lab/Facilities Incharge - Optical Microscopy, Micro Hardness, Electro polishing & Metallography lab facilities
+
+- name: E. Rangaiah
+  imgsrc: /assets/images/staff/rangaiah.jpg
+  designation: Technician
+  email: rangaiah.e@msme.iith.ac.in
+  Lab: Lab/Facilities Incharge - Sputtering, Raman Spectroscopy & Sensor Material Lab
+
+- name: Nalam Divakar
+  imgsrc: /assets/images/staff/NalamDivakar.jpg
+  designation: Junior Technician
+  email: divakar.nalam@msme.iith.ac.in
+  Lab: Lab/Facilities Incharge - Powder Metallurgy Lab & Mechanical Testing Lab
+
+- name: E R Jothilingam
+  imgsrc: /assets/images/staff/ERJ.jpg
+  designation: Junior Technician
+  email: jothilingam.er@msme.iith.ac.in
+  profile: https://sites.google.com/msme.iith.ac.in/jothilingam/home
+  Lab: Lab/Facilities Incharge - Funtional Properties Characterization Facilities
+
+- name: Asutya Kumar Biswal
+  imgsrc: /assets/images/staff/AsutyaKumarBiswal.jpg
+  designation: Junior Technician
+  email: asutya.kumar@msme.iith.ac.in
+  Lab: Lab/Facilities Incharge - Mechanical Testing, Powder Metallurgy & Heavy-duty lab Facilities
+
+- name: Saimatha Gannabathula
+  imgsrc: /assets/images/staff/SaimathaGannabathula.jpg
+  designation: Junior Technician
+  email: saimatha.g@msme.iith.ac.in
+  Lab: Lab/Facilities Incharge - Microbiology & cell culture techniques
+
+
+
+- name: M Subhani Cheemakur
+  imgsrc: /assets/images/staff/SubhaniCheemakur.jpg
+  designation: Multi Skill Assistant
+  email: subhani.m@admin.iith.ac.in
+  Lab: Area of work - General Office Administration

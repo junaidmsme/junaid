@@ -1,0 +1,54 @@
+---
+title: "Staff"
+layout: page-fullwidth
+display: true
+permalink: "/staff/"
+
+---
+
+<!-- <style>
+.grayscale{
+  width: 150px;
+  height: 200px;
+}
+
+</style> -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/staff.css">
+
+
+
+
+<div class="container-fluid">
+  <div class="large-12 columns">
+
+    {% for staffMem in site.data.staff %}
+    <div class="row">
+      <div class="small-2 columns" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img class="grayscale" src="..{{ staffMem.imgsrc }}">
+      </div>
+      <div class="small-10 columns">
+        <p class="small-gap"> <b> {{ staffMem.name }}</b></p>
+        <p class="small-gap">{{ staffMem.designation }}</p>
+        <p class="small-gap">{{ staffMem.Lab }}</p>
+
+        <p class="small-gap"><i class="fa fa-envelope"></i>  <a href="mailto:{{ staffMem.email }}">{{ staffMem.email }}</a></p>
+        {% if staffMem.profile %}
+        <a href="{{ staffMem.profile }}" target="_blank" class="button"><strong>Profile Link</strong></a>
+        {%- endif -%}
+      </div>
+    </div>
+    <hr>
+    {% endfor %}
+
+
+
+
+
+
+
+
+
+
+
